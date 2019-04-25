@@ -1,0 +1,19 @@
+
+
+
+// Instantiate the module
+termometr_PID instance_name (
+    .reset(reset), 
+    .IN_OUT(IN_OUT), 
+    .clk(clk), 
+    .rotary_a(rotary_a), 
+    .rotary_b(rotary_b), 
+    .rotary_press(rotary_press), 
+    .podgrzej(podgrzej), 
+    .LED(LED), 
+    .a_to_g(a_to_g), 
+    .anody(anody), 
+    .dot(dot)
+    );
+
+

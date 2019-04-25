@@ -1,0 +1,14 @@
+[Inputs]
+reset
+clk
+rotary_a
+rotary_b
+rotary_press
+[Outputs]
+podgrzej
+dot
+=LED[5:0]=
+=a_to_g[6:0]=
+=anody[3:0]=
+[BiDir]
+IN_OUT

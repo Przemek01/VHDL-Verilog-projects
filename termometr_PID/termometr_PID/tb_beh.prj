@@ -1,0 +1,2 @@
+vhdl work "termometr_PID.vhd"
+vhdl work "tb.vhd"

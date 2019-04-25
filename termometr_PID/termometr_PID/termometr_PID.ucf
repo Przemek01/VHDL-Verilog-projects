@@ -1,0 +1,64 @@
+
+
+NET "a_to_g[6]" IOSTANDARD = LVCMOS33;
+NET "a_to_g[5]" IOSTANDARD = LVCMOS33;
+NET "a_to_g[4]" IOSTANDARD = LVCMOS33;
+NET "a_to_g[3]" IOSTANDARD = LVCMOS33;
+NET "a_to_g[2]" IOSTANDARD = LVCMOS33;
+NET "a_to_g[1]" IOSTANDARD = LVCMOS33;
+NET "a_to_g[0]" IOSTANDARD = LVCMOS33;
+NET "anody[3]" IOSTANDARD = LVCMOS33;
+NET "anody[2]" IOSTANDARD = LVCMOS33;
+NET "anody[1]" IOSTANDARD = LVCMOS33;
+NET "anody[0]" IOSTANDARD = LVCMOS33;
+NET "clk" IOSTANDARD = LVCMOS33;
+NET "dot" IOSTANDARD = LVCMOS33;
+NET "reset" IOSTANDARD = LVCMOS33;
+
+NET "LED<0>" LOC = "F9" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 4;
+NET "LED<1>" LOC = "E9" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 4;
+NET "LED<2>" LOC = "D11" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 4;
+NET "LED<3>" LOC = "C11" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 4;
+NET "LED<4>" LOC = "F11" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 4;
+NET "LED<5>" LOC = "E11" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 4;
+
+
+NET "a_to_g[0]" LOC = A16;
+NET "a_to_g[1]" LOC = D14;
+NET "a_to_g[2]" LOC = C14;
+NET "a_to_g[3]" LOC = B14;
+NET "a_to_g[4]" LOC = A14;
+NET "a_to_g[5]" LOC = B13;
+NET "a_to_g[6]" LOC = A13;
+NET "anody[0]" LOC = A11;
+NET "anody[1]" LOC = B11;
+NET "anody[2]" LOC = C4;
+NET "anody[3]" LOC = E13;
+NET "clk" LOC = C9;
+NET "dot" LOC = B16;
+INST "IN_OUT_IOBUF" LOC = C7;
+NET "reset" LOC = N17;
+
+
+NET "IN_OUT" IOSTANDARD = LVCMOS33;
+NET "IN_OUT" PULLUP;
+
+# PlanAhead Generated physical constraints 
+
+NET "podgrzej" LOC = D7;
+
+# PlanAhead Generated IO constraints 
+
+NET "podgrzej" IOSTANDARD = LVCMOS33;
+NET "rotary_a" PULLUP;
+NET "rotary_b" PULLUP;
+NET "rotary_press" PULLDOWN;
+NET "rotary_a" IOSTANDARD = LVCMOS33;
+NET "rotary_b" IOSTANDARD = LVCMOS33;
+NET "rotary_press" IOSTANDARD = LVCMOS33;
+
+# PlanAhead Generated physical constraints 
+
+NET "rotary_a" LOC = K18;
+NET "rotary_b" LOC = G18;
+NET "rotary_press" LOC = V16;

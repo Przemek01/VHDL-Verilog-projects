@@ -1,0 +1,2 @@
+vhdl isim_temp "termometr_PID.vhd"
+vhdl isim_temp "tb.vhd"
